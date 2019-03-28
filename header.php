@@ -1,120 +1,131 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-	
-	<meta  charset="utf-8"/>
-	<title>Trang Chu</title>
-	<link rel="stylesheet"  href="css/stylesHeader.css">
-	<link rel="stylesheet" href="css/stylesCongTy.css">
-	<link rel="stylesheet" href="css/stylesCongViec.css">
-	<link rel="stylesheet" href="css/stylesformNguoiXinViec.css">
-	<link rel="stylesheet" href="css/stylesFooter.css">
-	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-	<!--- bootstrap su dung internet
-	<link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-	<script
-	src="https://code.jquery.com/jquery-3.3.1.js"
-	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-	crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>--->
-	<?php	session_start();?>
-
-<script>
-	 document.getElementById("change").style.text = "sfa";
-</script>
+    <link rel="stylesheet" href="css/stylesHeader.css">
+    <title>Hello, world!</title>
 </head>
 <body>
-	<!---------------------nav----------------------------->
-	<nav class="collaspe navbar-collapse">
-		<div class="container">
-			<div class="row menu ">
-				<div class="col-md-4 home">
-					<a href ="/DoAn.php"><img src ="images/home.png" height="60" width="60"></a>
-				</div>
-				<div class="col-md-2 timviec">
-				<i class="icon-sprite-new icon-ntv-green"></i>
-					<a rel="nofollow" href="/TimViec.php" title="Trang tim viec"><img src="images/users.png" height="25" width="25">Tìm Việc</a>	
-				</div>
-				
-				<div class="col-md-2">
-					<a rel="nofollow" href="/NhaTuyenDung.php" title="Trang tuyển dụng"><img src="images/admin.png" height="25" width="25"  />Tuyển Dụng</a><!--rel="nofollow" là gì-->
-				</div>
-				
-				<?php
-				if(!empty($_SESSION['username'])){
-					
-					?>
-					
-						<div class="col-md-2">
-			
-					<a id="dangnhap" href="/logout.php" <!--target="targetframe"-->  <img src="images/password.png" height="25" width="25"   /> Đăng Xuất</a>
-				
-				</div>	
-				<?php
-				}else{
-					?>
-					<div class="col-md-2">
-					<a id="dangki" href="/Login.php"  <!--target="targetframe"-->  <img src="images/logout.png" height="25" width="25" />Đăng Nhập </a>	
-				</div>	
-				<?php
-				}
-				?>
-				
-								
-		
-		
-		
-				
-			</div>
-		</div>
-	</nav>
+    <div>
+        <div class="container">
+            <img src="images/logo.png">
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light menu-bar" id="navbarSupportedContent">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="material-icons">account_balance</i>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-	<!------Header------------------------------------------->
-	<header>
-		<div class="container search">
-			<div class="row">
-				<div class="col-md-2">
-				</div>	
-				<form action="/search_congviec.php" method="post">	
-					<div class="col-md-6">
-						 <input type="text" name="txtsearch" class="form-control" placeholder="Tìm Kiếm Theo Tên Công Việc">
-					</div>
-					<div class="col-md-2">
-					
-						<button type="submit" class="btn btn-info" name="btn_search">Tìm Kiếm</button>
-					</div>
-				</form>
-				<div class="col-md-2">
-				</div>
-			</div>
-		</div>
-		
-	</header>
-	<!-------------------menu tưng nganh----------------------------------------------------------->
-	<section class="nav_menu">
-		<div class="container ">
-			<div class="row">
-			
-				<div class="col-md-2">
-				</div>
-				<div class="col-md-2 ">
-					<a href="/NganhCNTT.php" title="Ngành IT" style="font-family: 'Great Vibes', cursive;font-size:15px;">Công Nghệ Thông Tin</a>
-				</div>
-				<div class="col-md-2">
-					<a href="/NganhDienTu.php" title="Ngành DTKT" style="font-family: 'Great Vibes', cursive;font-size:15px;">Điện Tử - Kĩ Thuật</a>
-				</div>
-				<div class="col-md-2">
-					<a href="/NganhNganHTaiC.php" title="Ngành NHTC" style="font-family: 'Great Vibes', cursive;font-size:15px;">Ngân Hàng - Tài Chính</a>
-				</div>
-				<div class="col-md-2">
-					<a href="/NganhKinhTe.php" title="Ngành KT" style="font-family: 'Great Vibes', cursive;font-size:15px;">Kinh Tế </a>
-				</div>
-				<div class="col-md-2">
-				</div>
-			</div>
-		</div>
-	</section>
+            <div class="collapse navbar-collapse menu">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BÓNG ĐÁ VIỆT NAM</a>
+                        <ul class="sub-menu">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">V-LEAGUE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">HẠNG NHẤT VIỆT NAM</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ĐỘI TUYỂN QUỐC GIA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FUTSAL</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BÓNG ĐÁ NỮ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CÁC ĐỘI TRẺ</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BÓNG ĐÁ QUỐC TẾ</a>
+                        <ul class="sub-menu">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BÓNG ĐÁ ANH</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BÓNG ĐÁ TÂY BAN NHA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BÓNG ĐÁ Ý</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BÓNG ĐÁ ĐỨC</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BÓNG ĐÁ PHÁP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CHAMPION LEAGUE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">EUROPA LEAGUE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">EURO 2020</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CHUYỂN NHƯỢNG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BÓNG RỔ</a>
+                        <ul class="sub-menu">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">NBA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">VBA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ABL</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CÁC GIẢI KHÁC</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">QUẦN VỢT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">VÕ THUẬT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">VIDEO</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <div class="input-group ml-sm-2 searchbox">
+                        <input type="text" class="form-control" id="searchbox" placeholder="Tìm kiếm">
+                        <div class="input-group-append">
+                            <div class="input-group-text btn-search">
+                                <i class="material-icons">search</i>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

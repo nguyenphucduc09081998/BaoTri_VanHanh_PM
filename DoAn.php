@@ -4,7 +4,7 @@ include('header.php');
 <link rel="stylesheet" href="css/stylesDoAn.css">
 	<!-----------------------chia tung cot cong ty----------------------------------->
 	
-<script type="text/javascript" src="js/DoAn.js"></script>
+<!--<script type="text/javascript" src="js/DoAn.js"></script>-->
 
 		
 
