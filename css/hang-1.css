@@ -46,3 +46,16 @@
 .news-title > * {
     flex: inherit;
 }
+
+.hoverable:hover {
+    font-size: 1.8rem;
+}
+
+.hoverable.sub-title:hover {
+    font-size: 1.2rem;
+}
+
+.no-color, .no-color:hover {
+    color: inherit;
+    text-decoration: none;
+}
