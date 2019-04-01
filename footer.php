@@ -1,47 +1,47 @@
 
+	<footer  class="bg-success">
+			<div class = "container bg-success text-white" >
+        <div class = "row">
+            <div class="col-sm-4"><strong >THÔNG TIN LIÊN HỆ</strong><p class="border-top"></p></div>
+            <div class="col-sm-4"><strong>LIÊN KẾT</strong><p class="border-top"></p></div>
+            <div class="col-sm-4 "><strong>HỖ TRỢ NHANH</strong><p class="border-top"></p></div>
+        </div>
+        <br>
+        
+        <div class = "row">
+                <div class="col-sm-4">
+                        <h6><strong>CÔNG TY CỔ PHẦN DỊCH VỤ AZSEO</strong></h6>
+                        <br> Trụ sở : 372 Lê Quang Định, Phường 11, Q.Bình Thạnh, TP.HCM
+                        <br>Hotline :  <strong>090 179 0123 - 090 893 0123</strong>
+                        <br>    Email: Info@azseo.vn
 
-	<footer>
-			<div class="container footer_about">
-				<div class="row">
-					<div class="col-md-3 link">
-						<h3 style="font-family: bold, font-size:40px">Link khác</h3>
-						<ul class="sex-small">
-							<a href="https://www.youtube.com/" target="targetframe"><h4>Link 1<h4></a>
-							<a href="https://www.youtube.com/" target="targetframe"><h4>Link 1<h4></a>
-							<a href="https://www.youtube.com/" target="targetframe"><h4>Link 1<h4></a>
-						</ul>
-					</div>
-					<div class="col-md-3 thongtin">
-						<h3 style="font-family: bold, font-size:40px">Thông Tin</h3>
-						<ul class="inforend">
-							<h4>Nguyễn Phúc Đức<h4>
-							<h4>Lê Minh Hiếu<h4>			
-							<!---<li><img class="tenqua" src="images/qua.png"><a>Le Minh Hieu</a></li>
-							<li><img class="tenqua" src="images/qua.png"><a>Nguyen Phuc Duc</a></li>
-							<li><img class="tenqua" src="images/qua.png"><a>Money Back</a></li>--->
-							
-							
-							
-							
-							
-						</ul>
-					</div>
-					<div class="col-md-3 lienhe">
-						<h3 style="font-family: bold, font-size:40px">Liên Hệ</h3>				
-						<ul class="contact">						
-							<h4>Phone:<h4><a><h4>033 528 0715<h4></a>
-							<h4>Gmail:</h4><a><h4>16520390@gm.uit.edu.vn</h4></a>
-						</ul>
-					</div>
-					<div class="col-md-3 theodoi">
-						<h3 style="font-family: bold, font-size:40px">Theo Dõi</h3>
-						<ul class="follow">			
-							<a href ="https://www.facebook.com/profile.php?id=100029546264129&ref=bookmarks" target="targetframe"><img class="rim-square-fb" src="images/iconfb.png" height="50" width="50"/></a>
-							<a href ="https://www.facebook.com/profile.php?id=100029546264129&ref=bookmarks" target="targetframe"><img class="rim-square-gg" src="images/zalo.png" height="50" width="50"/></a>			
-						</ul>
-					</div>
-				</div>
-			</div>
+                </div>
+                <div class="col-sm-4 ">
+                        <ul class="list-unstyled">
+                            <li >Dịch Vụ Seo</li>
+                            <li class="border-top mt-2" >Thiết kế Web</li>
+                            <li class="border-top mt-2">Quảng Cáo Google</li>
+                     
+                        </ul>
+                </div>
+                <div class="col-sm-4 ">
+                        <ul class="list-unstyled">
+                            <li>
+                                    Hổ trợ nhanh cho các đơn vị từ các thành phố: Hà Nội,
+                                     TP.HCM, Đà Nẵng, Bình Dương, Cần Thơ
+                            </li>
+                            <li class="border-top mt-4">
+                                    Quận 1, Quận 12, Quận Thủ Đức, Quận 9,
+                                 Quận Gò Vấp, Quận Bình Thạnh, Quận Tân Bình,
+                                Quận Tân Phú, Quận Phú Nhuận, Quận 2, Quận 3,
+          
+                                    
+                            </li>
+                        </ul>
+                </div>
+
+        </div>  
+     </div>
 				<span class="copyright">Copyright ©2018 Đồ Án Công Nghẹ Web và Ứng Dụng</span>
 		</footer>
 </body>
