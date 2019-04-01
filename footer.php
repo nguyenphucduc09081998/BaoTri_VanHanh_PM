@@ -1,5 +1,5 @@
 
-	<footer  class="bg-success">
+	<footer  class="bg-success" style="padding-top:15px; padding-bottom: 30px;">
 			<div class = "container bg-success text-white" >
         <div class = "row">
             <div class="col-sm-4"><strong >THÔNG TIN LIÊN HỆ</strong><p class="border-top"></p></div>
@@ -19,8 +19,8 @@
                 <div class="col-sm-4 ">
                         <ul class="list-unstyled">
                             <li >Dịch Vụ Seo</li>
-                            <li class="border-top mt-2" >Thiết kế Web</li>
-                            <li class="border-top mt-2">Quảng Cáo Google</li>
+                            <li class="" >Thiết kế Web</li>
+                            <li class="">Quảng Cáo Google</li>
                      
                         </ul>
                 </div>
@@ -30,7 +30,7 @@
                                     Hổ trợ nhanh cho các đơn vị từ các thành phố: Hà Nội,
                                      TP.HCM, Đà Nẵng, Bình Dương, Cần Thơ
                             </li>
-                            <li class="border-top mt-4">
+                            <li class="">
                                     Quận 1, Quận 12, Quận Thủ Đức, Quận 9,
                                  Quận Gò Vấp, Quận Bình Thạnh, Quận Tân Bình,
                                 Quận Tân Phú, Quận Phú Nhuận, Quận 2, Quận 3,
@@ -42,7 +42,7 @@
 
         </div>  
      </div>
-				<span class="copyright">Copyright ©2018 Đồ Án Công Nghẹ Web và Ứng Dụng</span>
+				<!---<span class="copyright">Copyright ©2018 Đồ Án Công Nghẹ Web và Ứng Dụng</span>--->
 		</footer>
 </body>
 </html>
