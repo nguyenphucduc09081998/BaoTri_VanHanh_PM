@@ -1,0 +1,22 @@
+section {
+    padding-top: 20px;
+}
+.carousel {
+  width: 100%;
+}
+
+.slide-box {
+  display: flex;
+  justify-content: space-between;
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: .5rem;
+}
+.newsbox{
+    margin: 5px;
+}
+.carousel-indicators li{
+  background:black;
+  }
