@@ -36,7 +36,7 @@
                     <div class="news-photo" style="background-image: url(images/hang-01/messi.jpg)"></div>
                 </div>
                 <div class="col-12 col-sm-8">
-                    Mo ta ngan gon, noi dung tin tic...
+                    Mo ta ngan gon, noi dung tin tic...Tieu de tin tuc acs mbcx aswTieu de tin tuc acs mbcx aswTieu de tin tuc acs mbcx asw
                 </div>
             </div>
         </div>
@@ -47,29 +47,29 @@
                     <div class="news-photo" style="background-image: url(images/hang-01/messi.jpg)"></div>
                 </div>
                 <div class="col-12 col-sm-8 ml-0">
-                    Mo ta ngan gon, noi dung tin tic...
+                    Mo ta ngan gon, noi dung tin tic...Tieu de tin tuc acs mbcx aswTieu de tin tuc acs mbcx aswTieu de tin tuc acs mbcx asw
                 </div>
             </div>
         </div>
         <div class="col-12 col-sm-6">
             <div class="row">
-                <h4 class="col-12">Tieu de tin tuc acs mbcx asw</h4>
+                <h4 class="col-12">Tieu de tin tuc acs mbcx aswTieu de tin tuc acs mbcx asw</h4>
                 <div class="col-12 col-sm-4">
                     <div class="news-photo" style="background-image: url(images/hang-01/messi.jpg)"></div>
                 </div>
                 <div class="col-12 col-sm-8 ml-0">
-                    Mo ta ngan gon, noi dung tin tic...
+                    Mo ta ngan gon, noi dung tin tic...Tieu de tin tuc acs mbcx aswTieu de tin tuc acs mbcx aswTieu de tin tuc acs mbcx asw
                 </div>
             </div>
         </div>
         <div class="col-12 col-sm-6">
             <div class="row">
-                <h4 class="col-12">Tieu de tin tuc acs mbcx asw</h4>
+                <h4 class="col-12">Tieu de tin tuc acs mbcx aswTieu de tin tuc acs mbcx asw</h4>
                 <div class="col-12 col-sm-4">
                     <div class="news-photo" style="background-image: url(images/hang-01/messi.jpg)"></div>
                 </div>
                 <div class="col-12 col-sm-8 ml-0">
-                    Mo ta ngan gon, noi dung tin tic...
+                    Mo ta ngan gon, noi dung tin tic...Tieu de tin tuc acs mbcx aswTieu de tin tuc acs mbcx aswTieu de tin tuc acs mbcx asw
                 </div>
             </div>
         </div>

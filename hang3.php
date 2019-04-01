@@ -1,4 +1,6 @@
+<link rel="stylesheet" href="css/hang3.css">
 <section class="duynguyen">
+	<h1 class="testcssduynguyen">add file css cho duy nguyen</h1>
  <div class="container">
       <div class="row">
           <div class = "col-sm-6">
