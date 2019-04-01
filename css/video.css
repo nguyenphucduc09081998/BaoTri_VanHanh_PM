@@ -1,3 +1,4 @@
+/**
 section {
     padding-top: 20px;
 }
@@ -20,3 +21,55 @@ section {
 .carousel-indicators li{
   background:black;
   }
+ */
+
+
+        .carousel {
+            width: 100%;
+        }
+
+        .slide-box {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: .5rem;
+        }
+
+        .newsbox {
+            margin: 10px;
+        }
+
+        .carousel-indicators li {
+            border-radius: 100%;
+            background: black;
+            width: 20px;
+            height: 0px;
+        }
+
+        .carousel-indicators {
+            margin-bottom: -3rem;
+        }
+
+        .carousel-control-prev {
+            left: -100px;
+        }
+
+        .carousel-control-next {
+            right: -100px;
+        }
+
+        .carousel-control-prev-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+        }
+
+        .carousel-control-next-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+        }
+  
+  
+  
+  
