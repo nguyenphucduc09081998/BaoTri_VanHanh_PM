@@ -1,0 +1,14 @@
+.duynguyen .testcssduynguyen{
+	color: red;
+}
+.duynguyen .title_big{
+	font-size: 25px;
+	height: 39px;
+    overflow: hidden;
+    display: inline;
+}
+duynguyen .title_small{
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+	
