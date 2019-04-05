@@ -5,7 +5,7 @@
 	
         <div class="col-12 col-sm-8 border-right">
             <div class="news">
-                <a href="http://google.com">
+                <a href="trang-1.php">
                     <div class="news-photo" style="background-image: url(images/messi.png)"></div>
                     <div class="news-title flex-column d-flex align-items-start justify-content-end">
                             <h4 class="col-12 p-0 hoverable">Tieu de tin tuc acs mbcx asw</h4>
@@ -18,7 +18,7 @@
 		
         <div class="col-12 col-sm-4">
             <div class="news news-r">
-                <a href="http://facebook.com">
+                <a href="">
                     <div class="news-photo" style="background-image: url(images/messi.png)"></div>
                     <div class="news-title flex-column d-flex align-items-start justify-content-end">
                         <b class="col-12 p-0 hoverable sub-title">Tieu de tin tuc acs mbcx asw</b>

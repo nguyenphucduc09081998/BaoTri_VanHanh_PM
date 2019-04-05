@@ -9,7 +9,7 @@
 	<script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- Bootstrap CSS and javascript-->
-	
+
     
     
     
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/stylesHeader.css">
     <link rel="stylesheet" href="css/hang-1.css">
+    <link rel="stylesheet" href="css/stylesTrang1.css">
     <title>DoAnCoTruc</title>
 </head>
 <body>
