@@ -10,9 +10,6 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- Bootstrap CSS and javascript-->
 
-    
-    
-    
 		<!--  CSS -->
 		
     <link rel="stylesheet" href="css/bootstrap.min.css">

@@ -1,4 +1,6 @@
-
+<?php
+include('connect.php');		
+?>
 <?php
 include('header.php');
 ?>
@@ -7,6 +9,7 @@ include('header.php');
 
 <?php
 include('hang-1.php');
+
 ?>
 <br/>
 <?php

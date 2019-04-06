@@ -2,7 +2,7 @@
 	$servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "tintucbongda";
+    $dbname = "tintucthethao";
  
     $db = mysqli_connect($servername, $username, $password, $dbname) or die("Connection failed: " . mysqli_connect_error());
     /* check connection */
@@ -10,8 +10,6 @@
         printf("Connect failed: %s\n", mysqli_connect_error());
         exit();
     }
-	else{
-		echo'ok';
-	}
+	
 	mysqli_set_charset($db, "utf8");
 ?>
