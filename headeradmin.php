@@ -46,10 +46,10 @@
                     <div class="collapse navbar-collapse menu">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">BÓNG ĐÁ</a>
+                                <a class="nav-link" href="/adminbongda.php">BÓNG ĐÁ</a>
                                 <ul class="sub-menu">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Insert</a>
+                                        <a class="nav-link" href="/insertbongda.php">Insert</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Edit</a>
@@ -60,10 +60,10 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">CHUYỂN NHƯỢNG</a>
+                                <a class="nav-link" href="/adminchuyennhuong.php">CHUYỂN NHƯỢNG</a>
                                 <ul class="sub-menu">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Insert</a>
+                                            <a class="nav-link" href="/insertchuyennhuong.php">Insert</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Edit</a>
@@ -74,10 +74,10 @@
                                     </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">BÓNG RỔ</a>
+                                <a class="nav-link" href="/adminbongro.php">BÓNG RỔ</a>
                                 <ul class="sub-menu">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Insert</a>
+                                            <a class="nav-link" href="/insertbongro.php">Insert</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Edit</a>
@@ -88,10 +88,10 @@
                                     </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">QUẦN VỢT</a>
+                                <a class="nav-link" href="/adminquanvot.php">QUẦN VỢT</a>
                                 <ul class="sub-menu">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Insert</a>
+                                            <a class="nav-link" href="/inserquanvot.php">Insert</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Edit</a>
@@ -102,10 +102,10 @@
                                     </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">VÕ THUẬT</a>
+                                <a class="nav-link" href="/adminvothuat.php">VÕ THUẬT</a>
                                 <ul class="sub-menu">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Insert</a>
+                                            <a class="nav-link" href="/insertvothuat.php">Insert</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Edit</a>
