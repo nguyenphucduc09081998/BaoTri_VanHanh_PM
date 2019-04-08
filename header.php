@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="css/hang-1.css">
     <link rel="stylesheet" href="css/stylesTrang1.css">
     <title>DoAnCoTruc</title>
+	<?php 	session_start();	
+			include('connect.php');		
+	?>
 </head>
 <body>
     <div>
