@@ -14,25 +14,27 @@
 				$sqlquanvot1 = "SELECT * FROM tintucquanvot ORDER BY MaTinTucQuanVot DESC LIMIT 1, 7";
 				$quanvot1 = mysqli_query($db,$sqlquanvot1);
 				?>
+				<a href="/tintucquanvot.php?MaTinTucQuanVot=<?php echo $rquanvot["MaTinTucQuanVot"];?>">
                 <li class="title_big">
-                  <a href="#"><?php echo $rquanvot['TieuDeQuanVot'];?></a>
-                </li>
+                  <?php echo $rquanvot['TieuDeQuanVot'];?>
+                </li></a>
                 <li>
                   <div class="row">
                     <div class="col-sm-4">
-                  <a href="#"><img class="img-fluid" src="<?php echo $rquanvot["ImageQuanVot"];?>" alt="hình pornhub">
-                  </a></div>
+                 <img class="img-fluid" src="<?php echo $rquanvot["ImageQuanVot"];?>" alt="hình pornhub">
+                 </div>
                   <div class="col-sm-8">
                   <span class="small"><?php echo $rquanvot['PhuDeQuanVot'];?></span>
                   </div>
-                </div>
+					</div>
                 </li>
+				
 				<?php
 				while($rbongro1 = mysqli_fetch_array($quanvot1))
 				{	
 				?>
 					<li class="title_small" style="padding-top: 10px;">
-						<a href="#"><image src="images/iconbaiviec.png" /><?php echo $rbongro1['TieuDeQuanVot'];?></a>
+						<a href="/tintucquanvot.php?MaTinTucQuanVot=<?php echo $rbongro1["MaTinTucQuanVot"];?>"><image src="images/iconbaiviec.png" /><?php echo $rbongro1['TieuDeQuanVot'];?></a>
 					</li>
 				<?php
 				}					
@@ -52,14 +54,15 @@
 				$sqlttcn1 = "SELECT * FROM tintucchuyennhuong ORDER BY MaTinTucChuyenNhuong DESC LIMIT 1, 7";
 				$ttcn1 = mysqli_query($db,$sqlttcn1);
 				?>
+				<a href="/tintucchuyennhuong.php?MaTinTucChuyenNhuong=<?php echo $rttcn["MaTinTucChuyenNhuong"];?>">
                 <li class="title_big">
-                  <a href="#"><?php echo $rttcn['TieuDeChuyenNhuong'];?></a>
-                </li>
+                  <?php echo $rttcn['TieuDeChuyenNhuong'];?>
+                </li></a>
                 <li>
                   <div class="row">
                     <div class="col-sm-4">
-                  <a href="#"><img class="img-fluid" src="<?php echo $rttcn["ImageChuyenNhuong"];?>" alt="hình pornhub">
-                  </a></div>
+                  <img class="img-fluid" src="<?php echo $rttcn["ImageChuyenNhuong"];?>" alt="hình pornhub">
+                  </div>
                   <div class="col-sm-8">
                   <span class="small"><?php echo $rttcn['PhuDeChuyenNhuong'];?></span>
                   </div>
@@ -70,7 +73,7 @@
 				{	
 				?>
 					<li class="title_small" style="padding-top: 10px;">
-						<a href="#"><image src="images/iconbaiviec.png" /><?php echo $rttcn1['TieuDeChuyenNhuong'];?></a>
+						<a href="/tintucchuyennhuong.php?MaTinTucChuyenNhuong=<?php echo $rttcn1["MaTinTucChuyenNhuong"];?>"><image src="images/iconbaiviec.png" /><?php echo $rttcn1['TieuDeChuyenNhuong'];?></a>
 					</li>
 				<?php
 				}					
