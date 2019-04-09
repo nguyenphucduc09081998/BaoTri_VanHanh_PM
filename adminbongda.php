@@ -22,8 +22,8 @@ include('headeradmin.php');
                     </div>   
                     <div class="buttons">
                         
-                        <button type="button" class="btn btn-info">Edit</button>
-                        <button type="button" class="btn btn-danger">Delete</button>
+                        <button type="button" class="btn btn-info"><a href="#">Edit</a></button>
+                        <button type="button" class="btn btn-danger"><a href="/deletetintucbongda.php?deletetintucbongda=<?php echo $rbongda['MaTinTucBongDa'];?>">Delete</a></button>
                     </div>     
                 </div>
 			</div>	

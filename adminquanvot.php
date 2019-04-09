@@ -23,7 +23,7 @@ include('headeradmin.php');
                     <div class="buttons">
                         
                         <button type="button" class="btn btn-info">Edit</button>
-                        <button type="button" class="btn btn-danger">Delete</button>
+                        <button type="button" class="btn btn-danger"><a href="/deletetintucquanvot.php?deletetintucquanvot=<?php echo $rbongda['MaTinTucQuanVot'];?>">Delete</a></button>
                     </div>     
                 </div>
 			</div>	
