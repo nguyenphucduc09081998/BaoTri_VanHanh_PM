@@ -22,7 +22,7 @@ include('headeradmin.php');
                     </div>   
                     <div class="buttons">
                         
-                        <button type="button" class="btn btn-info">Edit</button>
+                        <button type="button" class="btn btn-info"><a href="/edittintucchuyennhuong.php?edittintucchuyennhuong=<?php echo $rbongda['MaTinTucChuyenNhuong'];?>">Edit</a></button>
                         <button type="button" class="btn btn-danger"><a href="/deletetintucchuyennhuong.php?deletetintucchuyennhuong=<?php echo $rbongda['MaTinTucChuyenNhuong'];?>">Delete</a></button>
                     </div>     
                 </div>
