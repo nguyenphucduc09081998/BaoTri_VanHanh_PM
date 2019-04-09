@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/stylesHeader.css">
     <link rel="stylesheet" href="css/hang-1.css">
     <link rel="stylesheet" href="css/stylesTrang1.css">
-    <title>DoAnCoTruc</title>
+    <title>ADMIN</title>
 	<style>
         .inside-content{
             padding-left:  15px;
@@ -91,7 +91,7 @@
                                 <a class="nav-link" href="/adminquanvot.php">QUẦN VỢT</a>
                                 <ul class="sub-menu">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/inserquanvot.php">Insert</a>
+                                            <a class="nav-link" href="/insertquanvot.php">Insert</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Edit</a>
