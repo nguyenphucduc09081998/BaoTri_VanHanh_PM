@@ -1,7 +1,4 @@
-<?php
-include('headeradmin.php');
-include ('serverInsert_bongda.php');
-?>
+
 <style>
   .btn-file {
     position: relative;
@@ -27,24 +24,34 @@ include ('serverInsert_bongda.php');
     width: 100%;
 }</style>
 <br/><br/>
+<?php
+include('headeradmin.php');
+include('connect.php');
+include ('serveredit_tintucquanvot.php');
+$a = $_GET['edittintucquanvot'];
+
+$sql = "select * from tintucquanvot where MaTinTucQuanVot = '$a'";
+$aaaa = mysqli_query($db,$sql);
+$result = mysqli_fetch_array($aaaa);
+?>
 	<div class="container">
-		<h1>Them mot tin tuc bong da</h1>
+		<h1>Cập Nhật tin tuc quan vot</h1>
 		<h2 color="red"> <?php include('errors.php'); ?></h2>
         <form action="" method="POST" enctype="multipart/form-data">
     		    
             <div class="form-group">
                 <label for="title">Title</label>
-                <input type="text" class="form-control" name="titlebongda" required />
+                <input type="text" class="form-control" name="titlebongda" placeholder="<?php echo $result['TieuDeQuanVot'];;?>"  />
             </div>
             <div class="form-group">
                 <label for="title">Sub Title</label>
-                <input type="text" class="form-control" name="subtitlebongda" required />
+                <input type="text" class="form-control" name="subtitlebongda" placeholder="<?php echo $result['PhuDeQuanVot'];;?>"  />
             </div>
             <div class="form-group">
                     <label for="title">DayPicker</label>
                 <div class='input-group date' id='datetimepicker1' >
                         
-                    <input type='text' class="form-control" name="ngaydangbongda" required />
+                    <input type='text' class="form-control" name="ngaydangbongda" placeholder="<?php echo $result['NgayDangQuanVot'];;?>"  />
 					<!---
 				   <span class="input-group-addon">
                         <span class="glyphicon glyphicon-calendar"></span>
@@ -54,62 +61,39 @@ include ('serverInsert_bongda.php');
             </div>
             <div class="form-group">
                 <label for="description">Description</label>
-                <textarea rows="5" class="form-control" name="descriptionbongda" required ></textarea>
+                <textarea rows="5" class="form-control" name="descriptionbongda" placeholder="<?php echo $result['ChiTietQuanVot'];;?>"  ></textarea>
             </div>
             <div class="form-group">
                 <label>Upload Image</label>
                 <div class="input-group">
                     <span class="input-group-btn">
                         <span class="btn btn-default btn-file">
-                            Browse… <input type="file" id="imgInp" name="imagebongda" required />
+                            Browse… <input type="file" id="imgInp" name="imagebongda"  />
                         </span>
                     </span>
                     <input type="text" class="form-control" readonly>
                 </div>
-                <img id='img-upload'/>
+                <img id='img-upload' src="<?php echo $result['ImageQuanVot'];?>"/>
             </div>
-			
-			
-			
-					  
+	  
             <div class="form-group">
                 <label>Upload Video</label>
                 <div class="input-group">
                     <span class="input-group-btn">
                         <span class="btn btn-default btn-file">
-                            Browse… <input type="file" id="imgInp" name="videobongda" required />
+                            Browse… <input type="file" id="imgInp" name="videobongda"  />
                         </span>
                     </span>
                     <input type="text" class="form-control" readonly>
                 </div>
-                <img id='img-upload'/>
+                <img id='img-upload' src="<?php echo $result['VideoQuanVot'];?>" />
             </div>
 			
-            <div class="form-group">
-                <label>KhuVuc</label>
-                <div class="input-group">
-                    <span class="input-group-btn">
-                        <span class="btn btn-default btn-file">
-                            <select  name="linh_vuc">
-                              <option value="1">V-League</option>
-                              <option value="2">Hạng Nhất Việt Nam</option>
-                              <option value="3">Đổi Tuyển Quốc Gia</option>
-                              <option value="4">Bóng Đá Nữ</option>
-							  <option value="5">Anh</option>
-                              <option value="6">Tây Ban Nha</option>
-                              <option value="7">Đức</option>
-                              <option value="8">Pháp</option>
-							  <option value="8">C1</option>
-                          </select>
-                        </span>
-                    </span>
-                </div>
-                <img id='img-upload'/>
-            </div>
+           
             
             <div class="form-group">
                 <button type="submit" class="btn btn-primary" name="insertbongda">
-                    Them
+                    Cập Nhật
                 </button>
                 <button class="btn btn-default">
                     Cancel
