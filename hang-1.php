@@ -2,98 +2,76 @@
 <link rel="stylesheet" href="css/hang1.css">
 <div class="container">
     <div class="row my-3">
-	
+		<?php
+				
+		$sqlbongda = "SELECT * FROM tintucbongda ORDER BY MaTinTucBongDa DESC";
+		$bongda = mysqli_query($db,$sqlbongda);
+		$rbongda = mysqli_fetch_array($bongda);
+		?>
         <div class="col-12 col-sm-8 border-right">
             <div class="news">
-                <a href="http://google.com">
-                    <div class="news-photo" style="background-image: url(images/messi.png)"></div>
+                <a href="/tintucbongda.php?MaTinTucBongDa=<?php echo $rbongda["MaTinTucBongDa"];?>">
+                    <div class="news-photo" style="background-image: url(<?php echo $rbongda["ImageBongDa"];?>)"></div>
                     <div class="news-title flex-column d-flex align-items-start justify-content-end">
-                            <h4 class="col-12 p-0 hoverable">Tieu de tin tuc acs mbcx asw</h4>
-                        <span>Tieu de tin tuc acs mbcx asw</span>
+                        <h4 class="col-12 p-0 hoverable"><?php echo $rbongda['TieuDeBongDa'];?></h4>
+                        <span><?php echo $rbongda['PhuDeBongDa'];?></span>
                     </div>
                 </a>
             </div>
         </div>
 		
+		<?php
 		
+		$sqlbongro = "SELECT * FROM tintucbongro ORDER BY MaTinTucBongRo DESC LIMIT 2";
+		$bongro = mysqli_query($db,$sqlbongro);
+		//$rbongro = mysqli_fetch_array($bongro);
+		?>
         <div class="col-12 col-sm-4">
-            <div class="news news-r">
-                <a href="http://facebook.com">
-                    <div class="news-photo" style="background-image: url(images/messi.png)"></div>
+		<?php
+		while($rbongro = mysqli_fetch_array($bongro))
+		{	
+		?>
+			<div class="news news-r">
+                <a href="/tintucbongro.php?MaTinTucBongRo=<?php echo $rbongro["MaTinTucBongRo"];?>">
+                    <div class="news-photo" style="background-image: url(<?php echo $rbongro["ImageBongRo"];?>)"></div>
                     <div class="news-title flex-column d-flex align-items-start justify-content-end">
-                        <b class="col-12 p-0 hoverable sub-title">Tieu de tin tuc acs mbcx asw</b>
+                        <b class="col-12 p-0 hoverable sub-title"><?php echo $rbongro['TieuDeBongRo'];?></b>
                     </div>
                 </a>
-            </div>
-            <div class="news news-r">
-                <a href="#">
-                    <div class="news-photo" style="background-image: url(images/messi.png)"></div>
-                    <div class="news-title flex-column d-flex align-items-start justify-content-end">
-                        <b class="col-12 p-0 hoverable sub-title">Tieu de tin tuc acs mbcx asw</b>
-                    </div>
-                </a>
-            </div>
-        </div>
-		
+            </div>				
+		<?php
+		}					
+		?>
+	
+        </div>	
     </div>
-    <div class="row">
-	
-        <div class="col-12 col-sm-6">
-            <a class="no-color" href="ChiTietThongTin.php">
-                <div class="row">
-                    <h4 class="col-12">Tieu de tin tuc acs mbcx asw</h4>
-                    <div class="col-12 col-sm-4">
-                        <div class="news-photo" style="background-image: url(images/messi.png)"></div>
-                    </div>
-                    <div class="col-12 col-sm-8">
-                        Mo ta ngan gon, noi dung tin tic...
-                    </div>
-                </div>
-            </a>
-        </div>
+
+	 <div class="row">
+		<?php
 		
-        <div class="col-12 col-sm-6">
-            <a class="no-color" href="#">
-                <div class="row">
-                    <h4 class="col-12">Tieu de tin tuc acs mbcx asw</h4>
-                    <div class="col-12 col-sm-4">
-                        <div class="news-photo" style="background-image: url(images/messi.png)"></div>
-                    </div>
-                    <div class="col-12 col-sm-8">
-                        Mo ta ngan gon, noi dung tin tic...
-                    </div>
+		$sqlvothuat = "SELECT * FROM tintucvothuat ORDER BY MaTinTucvothuat DESC LIMIT 4";
+		$vothuat = mysqli_query($db,$sqlvothuat);
+		//$rbongro = mysqli_fetch_array($bongro);
+		?>
+       
+		<?php
+		while($rvothuat = mysqli_fetch_array($vothuat))
+		{	
+		?>
+		<div class="col-12 col-sm-6">
+            <a class="no-color" href="/tintucvothuat.php?MaTinTucVoThuat=<?php echo $rvothuat["MaTinTucVoThuat"]; ?>">
+                <h4 class="col-12"><?php echo $rvothuat['TieuDeVoThuat'];?></h4>
+                <div class="col-12 col-sm-4">
+                <div class="news-photo" style="background-image: url(<?php echo $rvothuat["ImageVoThuat"];?>)"></div>
+                </div>
+                <div class="col-12 col-sm-8">
+                    <?php echo $rvothuat['PhuDeVoThuat'];?>
                 </div>
             </a>
-        </div>
-		
-        <div class="col-12 col-sm-6">
-            <a class="no-color" href="#">
-                <div class="row">
-                    <h4 class="col-12">Tieu de tin tuc acs mbcx asw</h4>
-                    <div class="col-12 col-sm-4">
-                        <div class="news-photo" style="background-image: url(images/messi.png)"></div>
-                    </div>
-                    <div class="col-12 col-sm-8">
-                        Mo ta ngan gon, noi dung tin tic...
-                    </div>
-                </div>
-            </a>
-        </div>
-		
-        <div class="col-12 col-sm-6">
-            <a class="no-color" href="#">
-                <div class="row">
-                    <h4 class="col-12">Tieu de tin tuc acs mbcx asw</h4>
-                    <div class="col-12 col-sm-4">
-                        <div class="news-photo" style="background-image: url(images/messi.png)"></div>
-                    </div>
-                    <div class="col-12 col-sm-8">
-                        Mo ta ngan gon, noi dung tin tic...
-                    </div>
-                </div>
-            </a>
-        </div>
-	
+        </div>		
+		<?php
+		}					
+		?>
     </div><!--close row-->
 </div><!--close container-->
 

@@ -1,0 +1,91 @@
+html {
+    font: 14px/20px  Arial, Helvetica, sans-serif;
+}
+.menu-bar {
+    list-style-type: none;
+    background: url(../images/menu-bar.gif);
+    text-align: center;
+}
+
+.menu-bar a {
+    color: #fff !important;
+}
+
+.menu-bar a:hover {
+    color: #ffff00 !important;
+}
+
+.menu ul li {
+    position: relative;
+    text-align: left;
+}
+
+.menu ul li a {
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 13.5px;
+    letter-spacing: 0.1px;
+}
+
+.menu ul li:hover > a{
+    color: #ffff00 !important;
+}
+
+.menu ul li > .sub-menu {
+    display: none;
+    position: absolute;
+    background: #f6f6f6;
+    list-style: none;
+    padding: 0;
+    width: 200px;
+    z-index: 999;
+    top: calc(38px + .5rem - 5px);
+}
+
+.menu > ul > li:hover {
+    border-bottom: 4px solid #2E62C0;
+}
+
+.menu ul li:hover .sub-menu {
+    display: block;
+}
+.menu ul li ul li a {
+    color: #444 !important;
+    padding: .5rem 1.3rem !important;
+}
+.menu ul li ul li:hover > a {
+    color: #2E62C0 !important;
+}
+
+.searchbox {
+    width: 300px !important;
+}
+
+.searchbox .btn-search {
+    cursor: pointer;
+}
+
+.tieu-de1{
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 10px;
+    display: block;
+    font-family: SFD-Bold;
+    line-height: 36px;
+    color: #222;
+}
+.tieu-de2{
+    display: inline-block;
+    font-size: 17px;
+    line-height: 22px;
+    font-family: SFD-Bold;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 15px;
+}
+.photo {
+    width: 100%;
+}
+.date-news {
+    margin: 0;
+}
