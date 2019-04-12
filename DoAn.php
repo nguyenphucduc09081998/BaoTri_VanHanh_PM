@@ -11,6 +11,10 @@ include('hang-1.php');
 ?>
 <br/>
 <?php
+include('phantrang.php');
+?>
+<br/>
+<?php
 include('video.php');
 ?><br/><br/>
 <?php
