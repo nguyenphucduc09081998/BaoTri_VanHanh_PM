@@ -38,34 +38,40 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
+<!----->
             <div class="collapse navbar-collapse menu">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">BÓNG ĐÁ VIỆT NAM</a>
+                        <a class="nav-link" >BÓNG ĐÁ VIỆT NAM</a>
                         <ul class="sub-menu">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">V-LEAGUE</a>
+                                <a class="nav-link" href="/bongdaVLeaGue.php">V-LEAGUE</a>
                             </li>
+							<!--
                             <li class="nav-item">
                                 <a class="nav-link" href="#">HẠNG NHẤT VIỆT NAM</a>
                             </li>
+							-->
                             <li class="nav-item">
                                 <a class="nav-link" href="#">ĐỘI TUYỂN QUỐC GIA</a>
                             </li>
+							<!--
                             <li class="nav-item">
                                 <a class="nav-link" href="#">FUTSAL</a>
                             </li>
+							-->
                             <li class="nav-item">
                                 <a class="nav-link" href="#">BÓNG ĐÁ NỮ</a>
                             </li>
+							<!--
                             <li class="nav-item">
                                 <a class="nav-link" href="#">CÁC ĐỘI TRẺ</a>
                             </li>
+							-->
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">BÓNG ĐÁ QUỐC TẾ</a>
+                        <a class="nav-link">BÓNG ĐÁ QUỐC TẾ</a>
                         <ul class="sub-menu">
                             <li class="nav-item">
                                 <a class="nav-link" href="#">BÓNG ĐÁ ANH</a>
@@ -73,9 +79,11 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">BÓNG ĐÁ TÂY BAN NHA</a>
                             </li>
+							<!--
                             <li class="nav-item">
                                 <a class="nav-link" href="#">BÓNG ĐÁ Ý</a>
                             </li>
+							-->
                             <li class="nav-item">
                                 <a class="nav-link" href="#">BÓNG ĐÁ ĐỨC</a>
                             </li>
@@ -85,19 +93,21 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">CHAMPION LEAGUE</a>
                             </li>
+							<!--
                             <li class="nav-item">
                                 <a class="nav-link" href="#">EUROPA LEAGUE</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">EURO 2020</a>
                             </li>
+							-->
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">CHUYỂN NHƯỢNG</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">BÓNG RỔ</a>
+                        <a class="nav-link" >BÓNG RỔ</a>
                         <ul class="sub-menu">
                             <li class="nav-item">
                                 <a class="nav-link" href="#">NBA</a>

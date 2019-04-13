@@ -91,14 +91,13 @@ include ('serverInsert_bongda.php');
                     <span class="input-group-btn">
                         <span class="btn btn-default btn-file">
                             <select  name="linh_vuc">
-                              <option value="1">V-League</option>
-                              <option value="2">Hạng Nhất Việt Nam</option>
-                              <option value="3">Đổi Tuyển Quốc Gia</option>
-                              <option value="4">Bóng Đá Nữ</option>
-							  <option value="5">Anh</option>
-                              <option value="6">Tây Ban Nha</option>
-                              <option value="7">Đức</option>
-                              <option value="8">Pháp</option>
+                              <option value="1">V-League</option>                            
+                              <option value="2">Đổi Tuyển Quốc Gia</option>
+                              <option value="3">Bóng Đá Nữ</option>
+							  <option value="4">Anh</option>
+                              <option value="5">Tây Ban Nha</option>
+                              <option value="6">Đức</option>
+                              <option value="7">Pháp</option>
 							  <option value="8">C1</option>
                           </select>
                         </span>
