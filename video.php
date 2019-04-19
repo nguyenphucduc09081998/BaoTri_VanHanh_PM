@@ -13,21 +13,21 @@
                       <div class="newsbox">
 							<a href="#">
 								<img src="images/testchohieu.jpg" alt="First slide" >
-								<h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s0000</h3>
+								<h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s0000</h4>
 							</a>
 					  </div>
                    
                       <div class="newsbox">
                             <img src="images/testchohieu.jpg" alt="First slide">
-                            <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s1111</h3>
+                            <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s1111</h4>
                       </div>
                       <div class="newsbox">
                             <img src="images/testchohieu.jpg" alt="First slide">
-                            <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s2222</h3>
+                            <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s2222</h4>
                       </div>
                       <div class="newsbox">
                             <img src="images/testchohieu.jpg" alt="First slide">
-                            <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s3333</h3>
+                            <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s3333</h4>
                       </div>
 					
                   </div>          
@@ -37,20 +37,20 @@
 						<div class="newsbox">
 							<a href="#">
                                 <img src="images/testchohieu.jpg" alt="Second slide">
-                                <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s4444</h3>
+                                <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s4444</h4>
 							</a>	
                         </div>
                         <div class="newsbox">
                                 <img src="images/testchohieu.jpg" alt="Second slide">
-                                <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s5555</h3>
+                                <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s5555</h4>
                         </div>
                         <div class="newsbox">
                                 <img src="images/testchohieu.jpg" alt="Second slide">
-                                <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s6666</h3>
+                                <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s6666</h4>
                         </div>
 						<div class="newsbox">
                                 <img src="images/testchohieu.jpg" alt="Second slide">
-                                <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s7777</h3>
+                                <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s7777</h4>
                         </div>
                   </div>        
               </div>

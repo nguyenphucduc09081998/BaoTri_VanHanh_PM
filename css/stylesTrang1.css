@@ -39,7 +39,8 @@ html {
     padding: 0;
     width: 200px;
     z-index: 999;
-    top: calc(38px + .5rem - 5px);
+    /*top: calc(38px + .5rem - 5px);*/
+    top: 34px;
 }
 
 .menu > ul > li:hover {

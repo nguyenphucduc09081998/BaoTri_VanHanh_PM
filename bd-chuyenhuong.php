@@ -3,8 +3,7 @@
 <div class="container">
     <div class="row my-3">
 		<?php
-				
-		$sqlbongda = "SELECT * FROM tintucbongda WHERE KhuVucBongDa = 1 ORDER BY MaTinTucBongDa DESC";
+		$sqlbongda = "SELECT * FROM tintucbongda WHERE KhuVucBongDa = 50 ORDER BY MaTinTucBongDa DESC";
 		$bongda = mysqli_query($db,$sqlbongda);
 		$rbongda = mysqli_fetch_array($bongda);
 		?>
@@ -23,7 +22,7 @@
 		
 		<?php
 		
-		$sqlbongro = "SELECT * FROM tintucbongda WHERE KhuVucBongDa = 1 ORDER BY MaTinTucBongDa DESC LIMIT 1, 2";
+		$sqlbongro = "SELECT * FROM tintucbongda WHERE KhuVucBongDa = 50 ORDER BY MaTinTucBongDa DESC LIMIT 1, 2";
 		$bongro = mysqli_query($db,$sqlbongro);
 		//$rbongro = mysqli_fetch_array($bongro);
 		?>
@@ -50,7 +49,7 @@
 	 <div class="row">
 		<?php
 		
-		$sqlvothuat = "SELECT * FROM tintucbongda WHERE KhuVucBongDa = 1 ORDER BY MaTinTucBongDa DESC LIMIT 3, 4";
+		$sqlvothuat = "SELECT * FROM tintucbongda WHERE KhuVucBongDa = 50 ORDER BY MaTinTucBongDa DESC LIMIT 3, 4";
 		$vothuat = mysqli_query($db,$sqlvothuat);
 		//$rbongro = mysqli_fetch_array($bongro);
 		?>

@@ -3,8 +3,7 @@
 <div class="container">
     <div class="row my-3">
 		<?php
-				
-		$sqlbongda = "SELECT * FROM tintucbongda WHERE KhuVucBongDa = 1 ORDER BY MaTinTucBongDa DESC";
+		$sqlbongda = "SELECT * FROM tintucbongda WHERE KhuVucBongDa = 7 ORDER BY MaTinTucBongDa DESC";
 		$bongda = mysqli_query($db,$sqlbongda);
 		$rbongda = mysqli_fetch_array($bongda);
 		?>
@@ -23,7 +22,7 @@
 		
 		<?php
 		
-		$sqlbongro = "SELECT * FROM tintucbongda WHERE KhuVucBongDa = 1 ORDER BY MaTinTucBongDa DESC LIMIT 1, 2";
+		$sqlbongro = "SELECT * FROM tintucbongda WHERE KhuVucBongDa = 7 ORDER BY MaTinTucBongDa DESC LIMIT 1, 2";
 		$bongro = mysqli_query($db,$sqlbongro);
 		//$rbongro = mysqli_fetch_array($bongro);
 		?>
@@ -49,15 +48,15 @@
 
 	 <div class="row">
 		<?php
-		
-		$sqlvothuat = "SELECT * FROM tintucbongda WHERE KhuVucBongDa = 1 ORDER BY MaTinTucBongDa DESC LIMIT 3, 4";
+
+		$sqlvothuat = "SELECT * FROM tintucbongda WHERE KhuVucBongDa = 7 ORDER BY MaTinTucBongDa DESC LIMIT 3, 4";
 		$vothuat = mysqli_query($db,$sqlvothuat);
 		//$rbongro = mysqli_fetch_array($bongro);
 		?>
-       
+
 		<?php
 		while($rvothuat = mysqli_fetch_array($vothuat))
-		{	
+		{
 		?>
 		<div class="col-12 col-sm-6">
             <a class="row no-color" href="/tintucvothuat.php?MaTinTucVoThuat=<?php echo $rvothuat["MaTinTucBongDa"]; ?>">
@@ -69,9 +68,9 @@
                     <?php echo $rvothuat['PhuDeBongDa'];?>
                 </div>
             </a>
-        </div>		
+        </div>
 		<?php
-		}					
+		}
 		?>
     </div><!--close row-->
 </div><!--close container-->

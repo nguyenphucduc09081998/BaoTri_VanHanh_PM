@@ -74,21 +74,19 @@
                         <a class="nav-link">BÓNG ĐÁ QUỐC TẾ</a>
                         <ul class="sub-menu">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">BÓNG ĐÁ ANH</a>
+                                <a class="nav-link" href="/bongdaAnh.php">BÓNG ĐÁ ANH</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/bongdaPhap.php">BÓNG ĐÁ PHÁP</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">BÓNG ĐÁ TÂY BAN NHA</a>
                             </li>
-							<!--
                             <li class="nav-item">
                                 <a class="nav-link" href="#">BÓNG ĐÁ Ý</a>
                             </li>
-							-->
                             <li class="nav-item">
                                 <a class="nav-link" href="#">BÓNG ĐÁ ĐỨC</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">BÓNG ĐÁ PHÁP</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">CHAMPION LEAGUE</a>
@@ -104,7 +102,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CHUYỂN NHƯỢNG</a>
+                        <a class="nav-link" href="chuyennhuong.php">CHUYỂN NHƯỢNG</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" >BÓNG RỔ</a>
