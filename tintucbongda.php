@@ -20,6 +20,19 @@ include('header.php');
             <h2 class="tieu-de2">
                 <?php echo $rctbongda['PhuDeBongDa'];?>
             </h2>
+			<?php
+				if(!empty($rctbongda['VideoBongDa']))
+				{?>
+			<br/>
+					<video width="1100" height="600" controls>
+						<source src="<?php echo $rctbongda['VideoBongDa'];?>" type="video/mp4" >
+ 
+						Your browser does not support HTML5 video.
+					</video>
+					<br/>
+				<?php
+				}
+			?>
             <p><?php echo $rctbongda['ChiTietBongDa'];?>
 			</p>
             <img class="photo" src="<?php echo $rctbongda['ImageBongDa'];?>">

@@ -10,48 +10,47 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                   <div class="slide-box">
-                      <div class="newsbox">
-							<a href="#">
-								<img src="images/testchohieu.jpg" alt="First slide" >
-								<h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s0000</h4>
+				  
+				<?php
+				$sqlvothuat = "SELECT * FROM tintucbongda ORDER BY MaTinTucBongDa DESC LIMIT 4";
+				$vothuat = mysqli_query($db,$sqlvothuat);
+		
+				while($rvothuat = mysqli_fetch_array($vothuat)){
+				?>
+					<div class="newsbox">
+						<video width="270px" height="202px" controls>
+							<source src="<?php echo $rvothuat["VideoBongDa"];?>" type="video/mp4" >
+						</video>
+							<a href="/tintucbongda.php?MaTinTucBongDa=<?php echo $rvothuat["MaTinTucBongDa"];?>">
+								<h4 class="aaa"><?php echo $rvothuat["TieuDeBongDa"];?></h4>
 							</a>
 					  </div>
-                   
-                      <div class="newsbox">
-                            <img src="images/testchohieu.jpg" alt="First slide">
-                            <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s1111</h4>
-                      </div>
-                      <div class="newsbox">
-                            <img src="images/testchohieu.jpg" alt="First slide">
-                            <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s2222</h4>
-                      </div>
-                      <div class="newsbox">
-                            <img src="images/testchohieu.jpg" alt="First slide">
-                            <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s3333</h4>
-                      </div>
+				<?php
+				}
+				?>
+                     
 					
                   </div>          
               </div>
               <div class="carousel-item">             
                   <div class="slide-box">
-						<div class="newsbox">
-							<a href="#">
-                                <img src="images/testchohieu.jpg" alt="Second slide">
-                                <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s4444</h4>
-							</a>	
-                        </div>
-                        <div class="newsbox">
-                                <img src="images/testchohieu.jpg" alt="Second slide">
-                                <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s5555</h4>
-                        </div>
-                        <div class="newsbox">
-                                <img src="images/testchohieu.jpg" alt="Second slide">
-                                <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s6666</h4>
-                        </div>
-						<div class="newsbox">
-                                <img src="images/testchohieu.jpg" alt="Second slide">
-                                <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s7777</h4>
-                        </div>
+						<?php
+				$sqlvothuat = "SELECT * FROM tintucbongda ORDER BY MaTinTucBongDa DESC LIMIT 4,4";
+				$vothuat = mysqli_query($db,$sqlvothuat);
+		
+				while($rvothuat = mysqli_fetch_array($vothuat)){
+				?>
+					<div class="newsbox">
+						<video width="270" height="202" controls>
+							<source src="<?php echo $rvothuat["VideoBongDa"];?>" type="video/mp4" >
+						</video>
+							<a href="/tintucbongda.php?MaTinTucBongDa=<?php echo $rvothuat["MaTinTucBongDa"];?>">
+								<h4 class="aaa"><?php echo $rvothuat["TieuDeBongDa"];?></h4>
+							</a>
+					  </div>
+				<?php
+				}
+				?>
                   </div>        
               </div>
 			  

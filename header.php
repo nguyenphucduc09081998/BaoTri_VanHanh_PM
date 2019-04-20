@@ -131,14 +131,13 @@
                         <a class="nav-link" href="#">VIDEO</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
+				
+                <form  action="/searchtintuc.php" method="post" class="form-inline my-2 my-lg-0">
                     <div class="input-group ml-sm-2 searchbox">
-                        <input type="text" class="form-control" id="searchbox" placeholder="Tìm kiếm">
-                        <div class="input-group-append">
-                            <div class="input-group-text btn-search">
-                                <i class="material-icons">search</i>
-                            </div>
-                        </div>
+                        <input type="text" class="form-control" id="searchbox" name="txtsearch" placeholder="Tìm kiếm">
+
+							<button type="submit" class="btn btn-info" name="btn_search">Tìm Kiếm</button>
+                 
                     </div>
                 </form>
             </div>
