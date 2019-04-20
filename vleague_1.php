@@ -11,7 +11,7 @@
 		
         <div class="col-12 col-sm-8 border-right">
             <div class="news">
-                <a href="/tintucbongda.php?MaTinTucBongDa=<?php echo $rbongda["MaTinTucBongDa"];?>">
+                <a href="/tintuc_vleague_1.php?MaTinTucBongDaVLeague=<?php echo $rbongda["MaTinTucBongDa"];?>">
                     <div class="news-photo" style="background-image: url(<?php echo $rbongda["ImageBongDa"];?>)"></div>
                     <div class="news-title flex-column d-flex align-items-start justify-content-end">
                         <h4 class="col-12 p-0 hoverable"><?php echo $rbongda['TieuDeBongDa'];?></h4>
@@ -33,7 +33,7 @@
 		{	
 		?>
 			<div class="news news-r">
-                <a href="/tintucbongro.php?MaTinTucBongRo=<?php echo $rbongro["MaTinTucBongDa"];?>">
+                <a href="/tintuc_vleague_1.php?MaTinTucBongDaVLeague=<?php echo $rbongro["MaTinTucBongDa"];?>">
                     <div class="news-photo" style="background-image: url(<?php echo $rbongro["ImageBongDa"];?>)"></div>
                     <div class="news-title flex-column d-flex align-items-start justify-content-end">
                         <b class="col-12 p-0 hoverable sub-title"><?php echo $rbongro['TieuDeBongDa'];?></b>
@@ -60,7 +60,7 @@
 		{	
 		?>
 		<div class="col-12 col-sm-6">
-            <a class="row no-color" href="/tintucvothuat.php?MaTinTucVoThuat=<?php echo $rvothuat["MaTinTucBongDa"]; ?>">
+            <a class="row no-color" href="/tintuc_vleague_1.php?MaTinTucBongDaVLeague=<?php echo $rvothuat["MaTinTucBongDa"]; ?>">
                 <h4 class="col-12"><?php echo $rvothuat['TieuDeBongDa'];?></h4>
                 <div class="col-12 col-sm-4">
                 <div class="news-photo" style="background-image: url(<?php echo $rvothuat["ImageBongDa"];?>)"></div>
