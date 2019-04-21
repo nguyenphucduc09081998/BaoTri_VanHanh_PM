@@ -53,7 +53,7 @@
                             </li>
 							-->
                             <li class="nav-item">
-                                <a class="nav-link" href="#">ĐỘI TUYỂN QUỐC GIA</a>
+                                <a class="nav-link" href="/bongdaDTQG.php">ĐỘI TUYỂN QUỐC GIA</a>
                             </li>
 							<!--
                             <li class="nav-item">
@@ -61,7 +61,7 @@
                             </li>
 							-->
                             <li class="nav-item">
-                                <a class="nav-link" href="#">BÓNG ĐÁ NỮ</a>
+                                <a class="nav-link" href="/bongdaVN-nu.php">BÓNG ĐÁ NỮ</a>
                             </li>
 							<!--
                             <li class="nav-item">
@@ -80,16 +80,16 @@
                                 <a class="nav-link" href="/bongdaPhap.php">BÓNG ĐÁ PHÁP</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">BÓNG ĐÁ TÂY BAN NHA</a>
+                                <a class="nav-link" href="/bongdaTayBanNha.php">BÓNG ĐÁ TÂY BAN NHA</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">BÓNG ĐÁ Ý</a>
+                                <a class="nav-link" href="/bongdaY.php">BÓNG ĐÁ Ý</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">BÓNG ĐÁ ĐỨC</a>
+                                <a class="nav-link" href="/bongdaDuc.php">BÓNG ĐÁ ĐỨC</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">CHAMPION LEAGUE</a>
+                                <a class="nav-link" href="/bongdaC1.php">CHAMPION LEAGUE</a>
                             </li>
 							<!--
                             <li class="nav-item">
@@ -113,12 +113,12 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">VBA</a>
                             </li>
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a class="nav-link" href="#">ABL</a>
-                            </li>
-                            <li class="nav-item">
+                            </li> -->
+                            <!-- <li class="nav-item">
                                 <a class="nav-link" href="#">CÁC GIẢI KHÁC</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </li>
                     <li class="nav-item">
