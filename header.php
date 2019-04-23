@@ -53,7 +53,10 @@
                             </li>
 							-->
                             <li class="nav-item">
+
                                 <a class="nav-link" href="/bongdaquocgia.php">ĐỘI TUYỂN QUỐC GIA</a>
+
+
                             </li>
 							<!--
                             <li class="nav-item">
@@ -61,7 +64,10 @@
                             </li>
 							-->
                             <li class="nav-item">
+
                                 <a class="nav-link" href="/bongdanuqg.php">BÓNG ĐÁ NỮ</a>
+
+                              
                             </li>
 							<!--
                             <li class="nav-item">
@@ -78,14 +84,20 @@
                             </li>
                             
                             <li class="nav-item">
-                                <a class="nav-link" href="/bongdaTBN.php">BÓNG ĐÁ TÂY BAN NHA</a>
+                                <a class="nav-link" href="/bongdaPhap.php">BÓNG ĐÁ PHÁP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/bongdaTayBanNha.php">BÓNG ĐÁ TÂY BAN NHA</a>
+
                             </li>
                             
                             <li class="nav-item">
+
                                 <a class="nav-link" href="/bongdaDuc.php">BÓNG ĐÁ ĐỨC</a>
                             </li>
-							<li class="nav-item">
-                                <a class="nav-link" href="/bongdaPhap.php">BÓNG ĐÁ PHÁP</a>
+							
+                            <li class="nav-item">
+                           
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/bongdaC1.php">CHAMPION LEAGUE</a>
@@ -112,12 +124,14 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="/bongroVBA.php">VBA</a>
                             </li>
+
                             <li class="nav-item">
                                 <a class="nav-link" href="/bongroABL.php">ABL</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/bongrok.php">CÁC GIẢI KHÁC</a>
-                            </li>
+
+                    
                         </ul>
                     </li>
                     <li class="nav-item">
