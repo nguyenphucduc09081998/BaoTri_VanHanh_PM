@@ -8,26 +8,91 @@
     
 	<script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/doan.js"></script>
     <!-- Bootstrap CSS and javascript-->
 
 		<!--  CSS -->
-		
+	
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/stylesHeader.css">
     <link rel="stylesheet" href="css/hang-1.css">
     <link rel="stylesheet" href="css/stylesTrang1.css">
     <title>DoAn</title>
 	<?php 	session_start();	
+	//var_dump($_SESSION['username'] );
 			include('connect.php');		
 	?>
+	<style>
+	.button {
+  background-color: white; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button5 {border-radius: 50%;}
+	</style>
 </head>
 <body>
     <div>
-		<a href="/DoAn.php">
-		 <div class="container">
-            <img src="images/logo.png">
-        </div>
-		</a>
+			<div class="container">
+				<div class="row"> 
+					<div class="col-md-10">
+					<a href="/DoAn.php">
+						<img src="images/logo.png">
+						</a>	
+					</div>
+					<div class="col-md-2">
+						<button  class="button button5" id="btn_user"><?php
+							if(!empty($_SESSION['username'])){
+								$a = $_SESSION['username'];
+								$user = "SELECT * FROM user WHERE username = '$a' ";
+								$username = mysqli_query($db,$user);
+								$rbongda = mysqli_fetch_array($username);?>
+								<img src="<?php echo $rbongda["imageuser"]; ?>  " style="width:60px;height:60px;"class="rounded-circle" alt="Cinque Terre">
+							<?php
+							}
+							else{
+								?>
+								<img src="/images/nulluser.jpg" style="width:60px;height:60px;"class="rounded-circle" alt="Cinque Terre">
+							<?php
+							}
+							?>
+						</button>
+						
+						<div style="display:none" id="btn_show" >
+						<?php
+							
+							
+							
+							if(!empty($_SESSION['username'])){
+								$a = $_SESSION['username'];
+								$user = "SELECT * FROM user WHERE username = '$a' ";
+								$username = mysqli_query($db,$user);
+								$rbongda = mysqli_fetch_array($username);?>
+								<p>Tên User: <?php echo $rbongda['username'];?></p>
+								<a href="user/Logout.php" style="margin: 20px">Đăngxuất</a>
+								<?php
+							}else{
+								?>
+								<a href="user/login.php" style="margin: 20px">ĐăngNhập</a>
+								<?php
+							}
+							?>
+							
+							
+							
+						</div>
+					</div>
+				</div>
+			</div>	
+			
+		
        
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light menu-bar" id="navbarSupportedContent">

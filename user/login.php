@@ -1,4 +1,7 @@
-﻿<?php include('serverLogin_Register.php'); ?>
+﻿<?php include('serverLogin_Register.php'); 
+
+include(
+'../connect.php');?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,10 +29,10 @@
 						<!--<label><input type="checkbox" checked="checked" name="remember"> Remember me</label><br>--->
 						<button type="submit" class="btn" name="login_user" ><h3>Đăng Nhập</h3></button><br><br>
 						<div class="col-md-6">
-							<span class="psw" ><a href="/register.php"><h4 style="color:white">Đăng Kí</h4></a></span>
+							<span class="psw" ><a href="/user/register.php"><h4 style="color:white">Đăng Kí</h4></a></span>
 						</div>
 						<div class="col-md-6">
-							<span class="psw"><a href="/DoMatKhau.php"><h4 style="color:white">Đổi Mật Khẩu</h4></a></span>
+							<span class="psw"><a href="/user/DoMatKhau.php"><h4 style="color:white">Đổi Mật Khẩu</h4></a></span>
 						</div>
 					</form>
 				</div>
