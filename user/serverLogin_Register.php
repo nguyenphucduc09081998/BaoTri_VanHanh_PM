@@ -6,7 +6,7 @@ session_start();
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', '', 'dataweb');
+include('../connect.php');
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
@@ -29,12 +29,12 @@ if (isset($_POST['reg_user'])) {
 
   // first check the database to make sure 
   // a user does not already exist with the same username and/or email
-  $user_check_query = "SELECT * FROM user WHERE Username='$username' ";
+  $user_check_query = "SELECT * FROM user WHERE username='$username' ";
   $result = mysqli_query($db, $user_check_query);
   $user = mysqli_fetch_assoc($result);
   
   if ($user) { // if user exists
-    if ($user['Username'] === $username) {
+    if ($user['username'] === $username) {
       array_push($errors, "Username đã tồn tại");
 	  //header('location: /register.php');
     }

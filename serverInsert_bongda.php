@@ -12,6 +12,7 @@ $errors = array();
     if (isset($_POST['insertbongda'])) {
 
         $titlebongda =  $_POST['titlebongda'];
+		var_dump( $titlebongda);
         $subtitlebongda = $_POST['subtitlebongda'];
         $ngaydangbongda =  $_POST['ngaydangbongda'];
         $descriptionbongda	 = $_POST['descriptionbongda'];
