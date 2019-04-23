@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/stylesHeader.css">
     <link rel="stylesheet" href="css/hang-1.css">
     <link rel="stylesheet" href="css/stylesTrang1.css">
-    <title>DoAnCoTruc</title>
+    <title>DoAn</title>
 	<?php 	session_start();	
 			include('connect.php');		
 	?>
@@ -53,7 +53,7 @@
                             </li>
 							-->
                             <li class="nav-item">
-                                <a class="nav-link" href="#">ĐỘI TUYỂN QUỐC GIA</a>
+                                <a class="nav-link" href="/bongdaquocgia.php">ĐỘI TUYỂN QUỐC GIA</a>
                             </li>
 							<!--
                             <li class="nav-item">
@@ -61,7 +61,7 @@
                             </li>
 							-->
                             <li class="nav-item">
-                                <a class="nav-link" href="#">BÓNG ĐÁ NỮ</a>
+                                <a class="nav-link" href="/bongdanuqg.php">BÓNG ĐÁ NỮ</a>
                             </li>
 							<!--
                             <li class="nav-item">
@@ -76,20 +76,19 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="/bongdaAnh.php">BÓNG ĐÁ ANH</a>
                             </li>
+                            
                             <li class="nav-item">
+                                <a class="nav-link" href="/bongdaTBN.php">BÓNG ĐÁ TÂY BAN NHA</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="/bongdaDuc.php">BÓNG ĐÁ ĐỨC</a>
+                            </li>
+							<li class="nav-item">
                                 <a class="nav-link" href="/bongdaPhap.php">BÓNG ĐÁ PHÁP</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">BÓNG ĐÁ TÂY BAN NHA</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">BÓNG ĐÁ Ý</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">BÓNG ĐÁ ĐỨC</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">CHAMPION LEAGUE</a>
+                                <a class="nav-link" href="/bongdaC1.php">CHAMPION LEAGUE</a>
                             </li>
 							<!--
                             <li class="nav-item">
@@ -108,24 +107,24 @@
                         <a class="nav-link" >BÓNG RỔ</a>
                         <ul class="sub-menu">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">NBA</a>
+                                <a class="nav-link" href="/bongroNBA.php">NBA</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">VBA</a>
+                                <a class="nav-link" href="/bongroVBA.php">VBA</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">ABL</a>
+                                <a class="nav-link" href="/bongroABL.php">ABL</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">CÁC GIẢI KHÁC</a>
+                                <a class="nav-link" href="/bongrok.php">CÁC GIẢI KHÁC</a>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">QUẦN VỢT</a>
+                        <a class="nav-link" href="/quanvot.php">QUẦN VỢT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">VÕ THUẬT</a>
+                        <a class="nav-link" href="/vothuat.php">VÕ THUẬT</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">VIDEO</a>

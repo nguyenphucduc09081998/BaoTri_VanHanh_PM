@@ -3,11 +3,11 @@
 <div class="container">
     <div class="row my-3">
 		<?php
-				
-		$sqlbongda = "SELECT * FROM tintucbongda ORDER BY MaTinTucBongDa DESC";
+		$sqlbongda = "SELECT * FROM tintucbongda WHERE KhuVucBongDa = 6 ORDER BY MaTinTucBongDa DESC";
 		$bongda = mysqli_query($db,$sqlbongda);
 		$rbongda = mysqli_fetch_array($bongda);
 		?>
+		
         <div class="col-12 col-sm-8 border-right">
             <div class="news">
                 <a href="/tintucbongda.php?MaTinTucBongDa=<?php echo $rbongda["MaTinTucBongDa"];?>">
@@ -22,7 +22,7 @@
 		
 		<?php
 		
-		$sqlbongro = "SELECT * FROM tintucbongro ORDER BY MaTinTucBongRo DESC LIMIT 2";
+		$sqlbongro = "SELECT * FROM tintucbongda WHERE KhuVucBongDa = 6 ORDER BY MaTinTucBongDa DESC LIMIT 1, 2";
 		$bongro = mysqli_query($db,$sqlbongro);
 		//$rbongro = mysqli_fetch_array($bongro);
 		?>
@@ -32,10 +32,10 @@
 		{	
 		?>
 			<div class="news news-r">
-                <a href="/tintucbongro.php?MaTinTucBongRo=<?php echo $rbongro["MaTinTucBongRo"];?>">
-                    <div class="news-photo" style="background-image: url(<?php echo $rbongro["ImageBongRo"];?>)"></div>
+                <a href="/tintucbongda.php?MaTinTucBongDa=<?php echo $rbongro["MaTinTucBongDa"];?>">
+                    <div class="news-photo" style="background-image: url(<?php echo $rbongro["ImageBongDa"];?>)"></div>
                     <div class="news-title flex-column d-flex align-items-start justify-content-end">
-                        <b class="col-12 p-0 hoverable sub-title"><?php echo $rbongro['TieuDeBongRo'];?></b>
+                        <b class="col-12 p-0 hoverable sub-title"><?php echo $rbongro['TieuDeBongDa'];?></b>
                     </div>
                 </a>
             </div>				
@@ -49,7 +49,7 @@
 	 <div class="row">
 		<?php
 		
-		$sqlvothuat = "SELECT * FROM tintucvothuat ORDER BY MaTinTucvothuat DESC LIMIT 6";
+		$sqlvothuat = "SELECT * FROM tintucbongda WHERE KhuVucBongDa = 6 ORDER BY MaTinTucBongDa DESC LIMIT 3, 4";
 		$vothuat = mysqli_query($db,$sqlvothuat);
 		//$rbongro = mysqli_fetch_array($bongro);
 		?>
@@ -59,13 +59,13 @@
 		{	
 		?>
 		<div class="col-12 col-sm-6">
-            <a class="no-color" href="/tintucvothuat.php?MaTinTucVoThuat=<?php echo $rvothuat["MaTinTucVoThuat"]; ?>">
-                <h4 class="col-12"><?php echo $rvothuat['TieuDeVoThuat'];?></h4>
+            <a class="row no-color" href="/tintucbongda.php?MaTinTucBongDa=<?php echo $rvothuat["MaTinTucBongDa"]; ?>">
+                <h4 class="col-12"><?php echo $rvothuat['TieuDeBongDa'];?></h4>
                 <div class="col-12 col-sm-4">
-                <div class="news-photo" style="background-image: url(<?php echo $rvothuat["ImageVoThuat"];?>)"></div>
+                <div class="news-photo" style="background-image: url(<?php echo $rvothuat["ImageBongDa"];?>)"></div>
                 </div>
                 <div class="col-12 col-sm-8">
-                    <?php echo $rvothuat['PhuDeVoThuat'];?>
+                    <?php echo $rvothuat['PhuDeBongDa'];?>
                 </div>
             </a>
         </div>		

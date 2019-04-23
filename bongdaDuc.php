@@ -6,12 +6,7 @@ include('header.php');
 <link rel="stylesheet" href="css/stylesDoAn.css">
 
 <?php
-include('hang-1.php');
-
-?>
-<br/>
-<?php
-include('phantrang.php');
+include('bd-duc.php');
 ?>
 <br/>
 <?php
@@ -21,9 +16,6 @@ include('video.php');
 include('hang3.php');
 ?>
 <br/>
-<?php
-include('votetrandau.php');
-?>
 <?php
 include('footer.php');
 ?>

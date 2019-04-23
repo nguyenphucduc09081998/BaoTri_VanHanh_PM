@@ -48,11 +48,10 @@
             <ul class="list-unstyled">
 			
 				<?php
-				$sqlttcn = "SELECT * FROM tintucchuyennhuong ORDER BY MaTinTucChuyenNhuong DESC ";
+				$sqlttcn = "SELECT * FROM tintucchuyennhuong ORDER BY MaTinTucChuyenNhuong DESC LIMIT 1, 7 ";
 				$ttcn = mysqli_query($db,$sqlttcn);
 				$rttcn = mysqli_fetch_array($ttcn);
-				$sqlttcn1 = "SELECT * FROM tintucchuyennhuong ORDER BY MaTinTucChuyenNhuong DESC LIMIT 1, 7";
-				$ttcn1 = mysqli_query($db,$sqlttcn1);
+				
 				?>
 				<a href="/tintucchuyennhuong.php?MaTinTucChuyenNhuong=<?php echo $rttcn["MaTinTucChuyenNhuong"];?>">
                 <li class="title_big">
