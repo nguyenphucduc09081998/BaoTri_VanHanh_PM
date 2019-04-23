@@ -32,7 +32,11 @@
 		{	
 		?>
 			<div class="news news-r">
+<<<<<<< HEAD
+                <a href="/tintucbongda.php?MaTinTucBongDa=<?php echo $rbongro["MaTinTucBongDa"];?>">
+=======
                 <a href="/tintucbongro.php?MaTinTucBongRo=<?php echo $rbongro["MaTinTucBongDa"];?>">
+>>>>>>> 19ecd822277d4a9c39f087043dd40e245e92e918
                     <div class="news-photo" style="background-image: url(<?php echo $rbongro["ImageBongDa"];?>)"></div>
                     <div class="news-title flex-column d-flex align-items-start justify-content-end">
                         <b class="col-12 p-0 hoverable sub-title"><?php echo $rbongro['TieuDeBongDa'];?></b>
@@ -59,7 +63,11 @@
 		{	
 		?>
 		<div class="col-12 col-sm-6">
+<<<<<<< HEAD
+            <a class="row no-color" href="/tintucbongda.php?MaTinTucBongDa=<?php echo $rvothuat["MaTinTucBongDa"]; ?>">
+=======
             <a class="row no-color" href="/tintucvothuat.php?MaTinTucVoThuat=<?php echo $rvothuat["MaTinTucBongDa"]; ?>">
+>>>>>>> 19ecd822277d4a9c39f087043dd40e245e92e918
                 <h4 class="col-12"><?php echo $rvothuat['TieuDeBongDa'];?></h4>
                 <div class="col-12 col-sm-4">
                 <div class="news-photo" style="background-image: url(<?php echo $rvothuat["ImageBongDa"];?>)"></div>
