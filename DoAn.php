@@ -24,6 +24,10 @@ include('hang3.php');
 <?php
 include('votetrandau.php');
 ?>
+<br/>
+<?php
+//include('comment.php');
+?>
 <?php
 include('footer.php');
 ?>
