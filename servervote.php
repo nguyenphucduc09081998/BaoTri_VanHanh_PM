@@ -1,6 +1,6 @@
 <?php
 include('connect.php');
-$a = $_SESSION['aid'];
+//$a = $_SESSION['aid'];
 //var_dump($a);
 $errors = array();
 $sql = "UPDATE answer SET";

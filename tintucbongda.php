@@ -45,6 +45,12 @@ include('header.php');
 <?php
 include('hang3.php');
 ?>
+<?php
+include('comment/showcomment.php');
+?>
+<?php
+include('comment/comment.php');
+?>
 <br/>
 <?php
 include('footer.php');
