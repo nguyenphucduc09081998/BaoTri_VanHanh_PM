@@ -115,32 +115,19 @@
                                         </li>
                                     </ul>
                             </li>
-<!--                            <li class="nav-item">-->
-<!--                                <a class="nav-link" href="#">VIDEO</a>-->
-<!--                                <ul class="sub-menu">-->
-<!--                                        <li class="nav-item">-->
-<!--                                            <a class="nav-link" href="#">Insert</a>-->
-<!--                                        </li>-->
-<!--                                        <li class="nav-item">-->
-<!--                                            <a class="nav-link" href="#">Edit</a>-->
-<!--                                        </li>-->
-<!--                                        <li class="nav-item">-->
-<!--                                            <a class="nav-link" href="#">Delete</a>-->
-<!--                                        </li>-->
-<!--                                    </ul>-->
-<!--                            </li>-->
+
                             <li class="nav-item">
-                                <a class="nav-link" href="#">THÊM BÌNH CHỌN</a>
+                                <a class="nav-link" href="#">BÌNH CHỌN</a>
                                 <ul class="sub-menu">
                                     <li class="nav-item">
                                         <a class="nav-link" href="/insertquestion.php">Insert</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Edit</a>
+                                        <a class="nav-link" href="/managementQuestion.php">Edit</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Delete</a>
-                                    </li>
+<!--                                    <li class="nav-item">-->
+<!--                                        <a class="nav-link" href="#">Delete</a>-->
+<!--                                    </li>-->
                                 </ul>
                             </li>
                         </ul>
