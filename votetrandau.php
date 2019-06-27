@@ -2,17 +2,14 @@
 <?php
 include ('servervote.php');
 include('connect.php');
-		$sqlbongda = "SELECT * FROM question ORDER BY qid DESC";
+		$sqlbongda = "SELECT * FROM question where is_flag = 1";
 		$bongda = mysqli_query($db,$sqlbongda);
-		//$rbongda = mysqli_fetch_array($bongda);
-		//$matiletrandau = $rbongda["MaTiLeTranDau"];
-		//var_dump($matiletrandau);
-		//$_SESSION['matiletrandau'] = $matiletrandau;
+
 		if(mysqli_num_rows($bongda) > 0){
-			//var_dump('dsdssd');
+
 			$row=mysqli_fetch_array($bongda);
-			$qid=$row["qid"];
-			//var_dump($qid);?>
+
+			$qid=$row["qid"]; ?>
 		<div class="container">
             <form class="border border-success" method="POST" enctype="multipart/form-data">      
                     <div class="form-group">
@@ -27,10 +24,7 @@ include('connect.php');
 					<h1 color="red"><?php include('errors.php'); ?></h1>
 					<?php
 					while($rbongro = mysqli_fetch_array($bongro)){
-						
-						//$_SESSION['aid'] = $rbongro["aid"];
 						?>
-						
 						<div class="form-check">
 						
 						<input type="checkbox" name="radio1" value="<?php echo $rbongro["aid"];?>">
