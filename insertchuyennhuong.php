@@ -28,7 +28,7 @@ include ('serverInsert_chuyennhuong.php');
 }</style>
 <br/><br/>
 	<div class="container">
-		<h1>Them mot tin tuc chuyen nhuong</h1>
+		<h1>Thêm tin chuyển nhượng</h1>
 		<h2 color="red"> <?php include('errors.php'); ?></h2>
         <form action="" method="POST" enctype="multipart/form-data">
     		    
