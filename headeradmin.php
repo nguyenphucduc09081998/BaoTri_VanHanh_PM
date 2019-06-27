@@ -130,10 +130,10 @@
 <!--                                    </ul>-->
 <!--                            </li>-->
                             <li class="nav-item">
-                                <a class="nav-link" href="/adminbongro.php">THÊM BÌNH CHỌN</a>
+                                <a class="nav-link" href="#">THÊM BÌNH CHỌN</a>
                                 <ul class="sub-menu">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="/insertbongro.php">Insert</a>
+                                        <a class="nav-link" href="/insertquestion.php">Insert</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Edit</a>

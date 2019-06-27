@@ -6,7 +6,6 @@ include('header.php');
     <div class="row my-3">
 		<?php
 		$MaTinTucVoThuat = $_GET['MaTinTucVoThuat'];
-		var_dump("$MaTinTucVoThuat");
 		$sqlctbongda = "SELECT * FROM tintucvothuat WHERE MaTinTucVoThuat = $MaTinTucVoThuat";
 		$ctbongda = mysqli_query($db,$sqlctbongda);
 		$rctbongda = mysqli_fetch_array($ctbongda);

@@ -24,17 +24,6 @@ $errors = array();
 		$filename1 = $_FILES['videobongda']['name'];
         $filetmpname1 = $_FILES['videobongda']['tmp_name'];
         $folder = 'images/';
-	
-        //$MaCongTy = (int)$result['MaCongTy'];
-
-        // form validation: ensure that the form is correctly filled ...
-        // by adding (array_push()) corresponding error unto $errors array
-        //if (empty($TenCV)) { array_push($errors, "chưa có tên công việc"); }
-       // if (empty($MoTa)) { array_push($errors, "chưa có mô tả công việc"); }
-        //if (empty($YeuCau)) { array_push($errors, "chưa có yêu cầu công việc"); }
-        //if (empty($MucLuong)) { array_push($errors, "chưa có mức lương công việc"); }
-        //if (empty($TinhChat)) { array_push($errors, "chưa có  công việc"); }
-        //if (empty($MucLuong)) { array_push($errors, "chưa có số lượng công việc"); }
 
         // first check the database to make sure
 		if (file_exists($_FILES['imagebongda']['tmp_name'])) {
