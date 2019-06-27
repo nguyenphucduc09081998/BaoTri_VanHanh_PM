@@ -28,7 +28,7 @@ include ('serverInsert_vothuat.php');
 }</style>
 <br/><br/>
 	<div class="container">
-		<h1>Them mot tin tuc vo thuat</h1>
+		<h1>Thêm tin tức võ thuật</h1>
 		<h2 color="red"> <?php include('errors.php'); ?></h2>
         <form action="" method="POST" enctype="multipart/form-data">
     		    
@@ -89,7 +89,7 @@ include ('serverInsert_vothuat.php');
             
             <div class="form-group">
                 <button type="submit" class="btn btn-primary" name="insertbongda">
-                    Them
+                    Thêm
                 </button>
                 <button class="btn btn-default">
                     Cancel

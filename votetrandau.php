@@ -39,15 +39,14 @@ include('connect.php');
                           <?php echo $rbongro["atitle"];?> 
                         </label>
                     </div>
-					
+
 						<?php
+
 					}
-					?>       
-                      <button type="submit" class="btn btn-success" name="vote" >Bình chọn</button>
-                      <a href="/result_vote.php?idresult_vote=<?php echo $qid;?>"><button type="button" class="btn btn-link">Xem kết quả</button></a>
-					  
-					  
-					  
+					?>
+
+                    <button type="submit" class="btn btn-success" name="vote" >Bình chọn</button>
+                    <a href="/result_vote.php?idresult_vote=<?php echo $qid;?>"><button type="button" class="btn btn-link">Xem kết quả</button></a>
             </form>
 
 

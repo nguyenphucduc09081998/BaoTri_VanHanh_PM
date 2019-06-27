@@ -28,7 +28,7 @@ include ('serverInsert_quanvot.php');
 }</style>
 <br/><br/>
 	<div class="container">
-		<h1>Them mot tin tuc quan vot</h1>
+		<h1>Thêm tin tức quần vợt</h1>
 		<h2 color="red"> <?php include('errors.php'); ?></h2>
         <form action="" method="POST" enctype="multipart/form-data">
     		    

@@ -115,19 +115,33 @@
                                         </li>
                                     </ul>
                             </li>
+<!--                            <li class="nav-item">-->
+<!--                                <a class="nav-link" href="#">VIDEO</a>-->
+<!--                                <ul class="sub-menu">-->
+<!--                                        <li class="nav-item">-->
+<!--                                            <a class="nav-link" href="#">Insert</a>-->
+<!--                                        </li>-->
+<!--                                        <li class="nav-item">-->
+<!--                                            <a class="nav-link" href="#">Edit</a>-->
+<!--                                        </li>-->
+<!--                                        <li class="nav-item">-->
+<!--                                            <a class="nav-link" href="#">Delete</a>-->
+<!--                                        </li>-->
+<!--                                    </ul>-->
+<!--                            </li>-->
                             <li class="nav-item">
-                                <a class="nav-link" href="#">VIDEO</a>
+                                <a class="nav-link" href="/adminbongro.php">THÊM BÌNH CHỌN</a>
                                 <ul class="sub-menu">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Insert</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Edit</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Delete</a>
-                                        </li>
-                                    </ul>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/insertbongro.php">Insert</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Edit</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Delete</a>
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
                         

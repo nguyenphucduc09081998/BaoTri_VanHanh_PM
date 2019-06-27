@@ -5,6 +5,7 @@ include('connect.php');
 $errors = array();
 $sql = "UPDATE answer SET";
 
+
 if (isset($_POST['vote'])) {
     
     if(!empty($_POST['radio1'])){
@@ -12,12 +13,15 @@ if (isset($_POST['vote'])) {
         //var_dump($radio1);
 		$sql .= " acount = acount + 1";
     }
-$sql .=" WHERE aid = '$radio1' ";
+    $sql .=" WHERE aid = '$radio1' ";
 	if(mysqli_query($db, $sql)){
 		array_push($errors, "Vote thành công");
-		//header('location: result_vote.php');
+		//header('location: result_vote.phpidresult_vote=<?php echo $qid;');
 	}else{
 		array_push($errors, "Vote thất bại");
 	}
+
 }
+
+
 ?>

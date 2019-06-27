@@ -28,7 +28,7 @@ include ('serverInsert_bongro.php');
 }</style>
 <br/><br/>
 	<div class="container">
-		<h1>Them mot tin tuc bong ro</h1>
+		<h1>Thêm tin tức bóng rổ</h1>
 		<h2 color="red"> <?php include('errors.php'); ?></h2>
         <form action="" method="POST" enctype="multipart/form-data">
     		    
@@ -94,7 +94,7 @@ include ('serverInsert_bongro.php');
                               <option value="1">NBA</option>
                               <option value="2">VBN</option>
                               <option value="3">ABL</option>
-                              <option value="4">Giai Khac</option>
+                              <option value="4">Giải khác</option>
                           </select>
                         </span>
                     </span>

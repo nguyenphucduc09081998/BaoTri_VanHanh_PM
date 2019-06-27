@@ -28,7 +28,7 @@ include ('serverInsert_bongda.php');
 }</style>
 <br/><br/>
 	<div class="container">
-		<h1>Them mot tin tuc bong da</h1>
+		<h1>Thêm tin bóng đá</h1>
 		<h2 color="red"> <?php include('errors.php'); ?></h2>
         <form action="" method="POST" enctype="multipart/form-data">
     		    
