@@ -77,10 +77,13 @@ if (isset($_POST['login_user'])) {
 		$row = mysqli_fetch_array($results);
 		$MaUser= $row['MaUser'];
 		$role = $row['role'];
+		//var_dump($role);exit();
+		$_SESSION['role'] = $role;
 		$_SESSION['mauser'] = $MaUser;
   	  $_SESSION['username'] = $username;
   	  $_SESSION['success'] = "You are now logged in";
 		if($role == 1){
+			//$_SESSION['username'] = $username;
 			header('location: /admin.php');
 		}else{
 			header('location: /DoAn.php');
