@@ -1,4 +1,4 @@
-﻿<?php include('serverLogin_Register.php'); 
+﻿	<?php include('serverLogin_Register.php'); 
 
 include(
 '../connect.php');?>
