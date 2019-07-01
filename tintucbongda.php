@@ -49,7 +49,10 @@ include('hang3.php');
 include('comment/showcomment.php');
 ?>
 <?php
-include('comment/comment.php');
+if(!empty($_SESSION['username'])){
+	include('comment/comment.php');
+}
+
 ?>
 <br/>
 <?php

@@ -73,20 +73,19 @@ if (isset($_POST['login_user'])) {
   	$query = "SELECT * FROM user WHERE username='$username' AND password='$password'";
   	$results = mysqli_query($db, $query);
 	
-	
-	
   	if (mysqli_num_rows($results) == 1) {
-		
 		$row = mysqli_fetch_array($results);
 		$MaUser= $row['MaUser'];
-		
-		
+		$role = $row['role'];
 		$_SESSION['mauser'] = $MaUser;
   	  $_SESSION['username'] = $username;
-	  
   	  $_SESSION['success'] = "You are now logged in";
-	
-	  header('location: /DoAn.php');
+		if($role == 1){
+			header('location: /admin.php');
+		}else{
+			header('location: /DoAn.php');
+		}
+	  
   	}else {
   		array_push($errors, "Mật Khẩu hoặc tài khoản không đúng");
 		//echo"Login ko thanh cong";
